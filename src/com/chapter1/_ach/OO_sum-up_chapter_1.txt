@@ -1,0 +1,15 @@
+
+OO basic:
+- Abstraction
+- Encapsulation
+- Polymorphism
+- Inheritence
+
+OO Principles:
+- Encapsulate what varies
+- Favor composition over inheritance
+- Porgram to interfaces, not implementations
+
+OO Patterns:
+STRATEGY - defines family of algorithms, encapsulates each one, and make them interchangeable. 
+Strategy lets the algorithm vary independently from clients that use it.

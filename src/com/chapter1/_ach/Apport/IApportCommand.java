@@ -1,5 +1,5 @@
 package com.chapter1._ach.Apport;
 
-public interface ApportCommand {
+public interface IApportCommand {
 	void apport();
 }

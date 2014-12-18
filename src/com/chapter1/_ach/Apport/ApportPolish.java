@@ -1,7 +1,7 @@
 package com.chapter1._ach.Apport;
 
 
-public class ApportPolish implements ApportCommand{
+public class ApportPolish implements IApportCommand{
 
 	@Override
 	public void apport() {

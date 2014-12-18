@@ -1,11 +1,11 @@
 package com.chapter1._ach.Dog;
 
-import com.chapter1._ach.Apport.ApportCommand;
-import com.chapter1._ach.Bark.BarkBehaviour;
+import com.chapter1._ach.Apport.IApportCommand;
+import com.chapter1._ach.Bark.IBarkBehaviour;
 
 public abstract class Dog {
-	BarkBehaviour barkBehaviour;
-	ApportCommand apportCommand;
+	IBarkBehaviour barkBehaviour;
+	IApportCommand apportCommand;
 	
 	public void performBark(){
 		barkBehaviour.bark();
@@ -15,11 +15,11 @@ public abstract class Dog {
 		apportCommand.apport();
 	}
 	
-	public void setBarkBehaviour(BarkBehaviour bb){
+	public void setBarkBehaviour(IBarkBehaviour bb){
 		barkBehaviour = bb;
 	}
 	
-	public void setAportCommand(ApportCommand ac){
+	public void setAportCommand(IApportCommand ac){
 		apportCommand = ac;		
 	}
 	

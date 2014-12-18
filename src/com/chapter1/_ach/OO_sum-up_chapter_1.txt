@@ -8,7 +8,7 @@ OO basic:
 OO Principles:
 - Encapsulate what varies
 - Favor composition over inheritance
-- Porgram to interfaces, not implementations
+- Program to interfaces, not implementations
 
 OO Patterns:
 STRATEGY - defines family of algorithms, encapsulates each one, and make them interchangeable. 

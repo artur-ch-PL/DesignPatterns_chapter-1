@@ -1,5 +1,5 @@
 package com.chapter1._ach.Bark;
 
-public interface BarkBehaviour {
+public interface IBarkBehaviour {
 	void bark();
 }

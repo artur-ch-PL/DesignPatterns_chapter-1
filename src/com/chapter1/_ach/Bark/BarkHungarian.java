@@ -1,6 +1,6 @@
 package com.chapter1._ach.Bark;
 
-public class BarkHungarian implements BarkBehaviour {
+public class BarkHungarian implements IBarkBehaviour {
 
 	@Override
 	public void bark() {
